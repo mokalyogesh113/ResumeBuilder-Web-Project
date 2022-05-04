@@ -4,12 +4,13 @@ body {
 	line-height: 1.4em;
 	padding: 0;
 	margin: 0;
-}
+}	
 
 #left {
 	background-color: #8E44AD;
 	line-height: 1em;
 }
+
 #left * {
 	color: #eee;
     font-family: 'Montserrat', sans-serif;
@@ -236,10 +237,48 @@ td.header {
 #sectionProjects .title , #sectionProjects .time {
 	display: inline-block;
 }
-/* #sectionInterest {
+#sectionInterest {
 	display: none;
-} */
+}
 #sectionFooterMessage {
 	display: none;
 }
 
+
+
+#page.verdana-sans * {
+	font-family: "Verdana", sans-serif;
+}
+#page.montserrat * {
+	font-family: 'Montserrat', sans-serif;
+}
+#page.roboto * {
+	font-family: 'Roboto', sans-serif;
+}
+#page.droid * {
+	font-family: 'Droid Serif', serif;
+}
+.droid strong , .verdana-sans strong , .montserrat strong {
+	font-weight: 700;
+}
+.roboto strong {
+	font-weight: 500;
+}
+.droid .title , .verdana-sans .title , .montserrat .title {
+	font-weight: 700;
+}
+.roboto .title {
+	font-weight: 500;
+}
+
+#notice {
+	background-color: #FFC300;
+	border-radius: 10px;
+	padding: 10px;
+	margin-bottom: 10px;
+	color: black;
+	text-align: center;
+}
+#notice a {
+	color: #F1C40F;
+}

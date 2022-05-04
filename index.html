@@ -2,13 +2,14 @@
 <head>
 	<title>Resume Builder</title>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<!-- <link rel="stylesheet" type="text/css" href="css/scroll.css"> -->
 	<link rel="stylesheet" type="text/css" href="css/column_scroll.css">
+	<link href='https://fonts.googleapis.com/css?family=Amarante' rel='stylesheet'>
 	<link rel="stylesheet" type="text/css" href="css/thin_scroll.css">
 	<link rel="stylesheet" type="text/css" href="css/theme.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
-    <!-- <link rel="stylesheet" type="text/css" href="css/header.css"> -->
+    <link rel="stylesheet" type="text/css" href="css/header.css">
 	<link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=Amarante' rel='stylesheet'>
 	<link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet" type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
@@ -17,12 +18,14 @@
 </head>
 
 <body>
-<div class="container-fluid">
+<div class="container-fluid	">
 	<div class="row">
 		<div class="col-sm-3 no-print" id="left">
 			<div id="panel">
 					<h3 class="text-center" data-toggle="modal">Resume</h3>
-                <br>
+             <!--   <button class="btn btn-block btn-primary" data-toggle="modal" data-target="#usageModal">VIEW INSTRUCTIONS</button> -->
+				<button class="btn btn-block btn-success" onclick="window.print()">PRINT AS PDF</button>
+
 				<hr>
 
 				<h4 class="text-center">Template settings</h4>
@@ -30,9 +33,9 @@
 				<h5>
 					Contact lines
 					<div class="toggle-button">
-						<div class="toggle-option selected" data-toggle="contact" id="contact3">2</div>
-						<div class="toggle-option" data-toggle="contact" id="contact4">3</div>
-						<div class="toggle-option" data-toggle="contact" id="contact5">4</div>
+						<div class="toggle-option selected" data-toggle="contact" id="contact3">1</div>
+						<div class="toggle-option" data-toggle="contact" id="contact4">2</div>
+						<div class="toggle-option" data-toggle="contact" id="contact5">3</div>
 					</div>
 				</h5>
 				<h5>
@@ -57,17 +60,9 @@
 						<div class="toggle-option" data-toggle="line" id="line6">6</div>
 					</div>
 				</h5>
-				<h5>
-					Center column no.
-					<div class="toggle-button">
-						<div class="toggle-option multi-select" data-toggle="column" id="column1">1</div>
-						<div class="toggle-option multi-select" data-toggle="column" id="column2">2</div>
-						<div class="toggle-option multi-select" data-toggle="column" id="column3">3</div>
-						<div class="toggle-option multi-select" data-toggle="column" id="column4">4</div>
-					</div>
-				</h5>
+				
 
-				<br>
+				<br><br>
 
 					<h5>
 						Font type
@@ -99,8 +94,7 @@
 							<div class="toggle-option" data-toggle="rule" id="ruleBelow">Below title</div>
 						</div>
 					</h5>
-					<br><br>
-
+					<br>
 
 				<hr>
 
@@ -135,14 +129,14 @@
 					</div>
 					<ul class="nobullet">
 					<li>
-                        <div class="text"><strong>B.Tech-Computer Science and Engineering,</strong> National Institute of Technology, Warangal</div>
-                        <div class="text">Aggregate CGPA: <strong>8.0/10</strong><br>Expected Graduation: <strong>MAY, 2020</strong></div>
+                        <div class="text"><strong>B.E. -Computer Science and Engineering,</strong>SNJB's KBJ College of Engineering, Chandwad</div>
+                        <div class="text">Aggregate CGPA: <strong>8.6/10</strong><br>Expected Graduation: <strong>MAY, 2024</strong></div>
                         <br>
-                        <div class="text"><strong>12th Intermediate-PCM,</strong> Board of Secondary Education, Ajmer</div>
-                        <div class="text">Aggregate Percentage: <strong>90.60%</strong><br>Passed: <strong>APRIL, 2015</strong></div>
+                        <div class="text"><strong>12th HSC-PCM,</strong> Shriman P.H Jain Science College, Chandwad</div>
+                        <div class="text">Aggregate Percentage: <strong>90.60%</strong><br>Passed: <strong>APRIL, 2020</strong></div>
                         <br>
-                        <div class="text"><strong>10th High School,</strong> Board of Secondary Education, Ajmer</div>
-                        <div class="text">Aggregate Percentage: <strong>80.00%</strong><br>Passed: <strong>APRIL, 2013</strong></div>
+                        <div class="text"><strong>10th High School,</strong> Shri. Neminath Jain Secondary & Higher Secondary School, Chandwad</div>
+                        <div class="text">Aggregate Percentage: <strong>80.00%</strong><br>Passed: <strong>APRIL, 2018</strong></div>
 					</li>
 					</ul>
 				</div>
@@ -158,9 +152,9 @@
 					<li>
 						<div class="text"><strong>Software Engineering Intern,</strong> ThinkPedia LLP, Gurugram</div>
                         <div class="text">MAY 2019 - JULY 2019</div>
-                        <div class="text    ">Worked on Customer Web Application for social media management.<br>
-                                              Developed frontend using Angular 7 & Bootstrap and backend Rest-APIs using Spring-boot & MongoDB.<br>
-                                              Worked in System Design, System Testing & API integration from scratch.</div>
+                        <div class="text">Worked on Customer Web Application for social media management.<br>
+Developed frontend using Angular 7 & Bootstrap and backend Rest-APIs using Spring-boot & MongoDB.<br>
+Worked in System Design, System Testing & API integration from scratch.</div>
 					</li>
 					<li>
 						<div class="text"><strong>Position,</strong> Company name, place</div>
@@ -225,11 +219,11 @@
 						<div class="time right">Apr 2016</div>
 						</div>
 						<div>
-						<div class="mentor tab">Dr. XYZ, Associate Professor, Dept. of XXX, IIT Guwahati</div>
+						<div class="mentor tab">Prof. KMS, Associate Professor, Dept. of Computer Engineering, SNJBCOE</div>
 						<div class="link right">goo.gl/link</div>
 						</div>
 						<div>
-						<div class="text">Graphical interface to share files over institute's network.</div>
+						<div class="text">Created Resume builder to create Resume easily .</div>
 						</div>
 					</li>
 					<li>
@@ -395,8 +389,28 @@
 					<li>WATCHING STANDUP COMEDY</li>
 					</ul>
 				</div>
-ngbfvhuikujhgfcx nm,.;/"
-""
+
+
+				<div class="section" id="sectionInterest">
+					<div class="section-title ruled rule-above">
+						<hr class="hr-above">
+						<h4><strong>Fields of interest (OR Research interests)</strong></h4>
+						<hr class="hr-below">
+					</div>
+					<ul>
+					<div class="row">
+						<div class="col-sm-6">
+							<li>Advanced XYZ</li>
+							<li>ABC design</li>
+						</div>
+						<div class="col-sm-6">
+							<li>XYZ processing</li>
+							<li>Robotics</li>
+						</div>
+					</div>
+					</ul>
+				</div>
+
 				<div class="section" id="sectionFooterMessage">
 					<div class="section-title ruled rule-above">
 						<hr class="hr-above">
@@ -411,27 +425,6 @@ ngbfvhuikujhgfcx nm,.;/"
 
 	</div>
 
-</div>
-
-<div class="modal fade" id="sectionToggleModal" tabindex='-1'>
-	<div class="modal-dialog">
-		<div class="modal-content">
-			<div class="modal-body">
-				<button type="button" class="close" data-dismiss="modal">&times;</button>
-				<div class="checkbox"><label><input type="checkbox" name="sectionToggle" checked="true" value="sectionEducation">Education</label></div>
-				<div class="checkbox"><label><input type="checkbox" name="sectionToggle" checked="true" value="sectionExperience">Experience</label></div>
-				<div class="checkbox"><label><input type="checkbox" name="sectionToggle" checked="true" value="sectionPublications">Publications</label></div>
-				<div class="checkbox"><label><input type="checkbox" name="sectionToggle" checked="true" value="sectionProjects">Projects</label></div>
-				<div class="checkbox"><label><input type="checkbox" name="sectionToggle" checked="true" value="sectionSkills">Technical Skills</label></div>
-				<div class="checkbox"><label><input type="checkbox" name="sectionToggle" checked="true" value="sectionResponsibility">Positions of Responsibility</label></div>
-				<div class="checkbox"><label><input type="checkbox" name="sectionToggle" checked="true" value="sectionAchievements">Achievements</label></div>
-				<div class="checkbox"><label><input type="checkbox" name="sectionToggle" checked="true" value="sectionCourses">Key courses taken</label></div>
-                <div class="checkbox"><label><input type="checkbox" name="sectionToggle" checked="true" value="sectionlinks">Links</label></div>
-				<div class="checkbox"><label><input type="checkbox" name="sectionToggle" checked="true" value="sectionCurricular">Hobbies</label></div>
-				<div class="checkbox"><label><input type="checkbox" name="sectionToggle" value="sectionFooterMessage">References message</label></div>
-			</div>
-		</div>
-	</div>
 </div>
 
 

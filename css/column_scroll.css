@@ -1,4 +1,4 @@
-/* #left , #right {
+#left , #right {
 	overflow: auto;
 	padding: 0;
 }
@@ -39,4 +39,4 @@
 	.col-sm-3 { width: 25%; }
 	.col-sm-2 { width: 16.66666667%; }
 	.col-sm-1 { width: 8.33333333%; }
-} */
+}
