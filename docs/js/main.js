@@ -44,14 +44,14 @@ function changeTemplate(toggleType,toggleValue)
 	{
 		// Contact Details 
 		case 'contact':
-			if(toggleValue=='contact3')
+			if(toggleValue=='contact1')
 			{
 				$('#contactLink1').hide();
 				$('#contactLink2').hide();
 				$('#contactlink5').hide();
 				$('#contactlink6').hide();
 			}
-			else if(toggleValue=='contact4')
+			else if(toggleValue=='contact2')
 			{
 				$('#contactLink1').show();
 				$('#contactLink2').hide();
